@@ -19,8 +19,8 @@ function SearchItems() {
  "websockets"]
   return (
     <div className='search-items'>
-     <h2>Search for 3D modeling engines:</h2>
-     <SearchBar items={items}/>
+
+     <SearchBar items={items} />
     </div>
   )
 }

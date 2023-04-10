@@ -1,7 +1,8 @@
 import React,{useState} from 'react';
+import {FaTimes} from "react-icons/fa";
 
 function CreateTags() {
- const [tags, setTags] = useState([])
+ const [tags, setTags] = useState(["VR", "3D Modeling", "playStation 5"])
 
 const handleAddTag = () => {
   const newTag = prompt("enter a new tag")
@@ -16,16 +17,17 @@ const handleRemoveTag = (tagToRemove) => {
 }
 
   return (
-    <div>
+    <div className='CreateTags'>
+    <h3 className='tags'>Tags</h3>
     <div className='remove-tags'>
      {tags.map((tag) => (
-      <span key={tag} onClick={() => handleRemoveTag(tag)}>
-      {tag} &times;
+      <span key={tag} onClick={() => handleRemoveTag(tag)} className="add-tags">
+      {tag} <FaTimes style={{color: "red", fontSize: "15px", marginLeft: "5px"}}/>
       </span>
      ))}
-     <h1></h1>
+
     </div>
-    <button onClick={handleAddTag}>Add tag</button>
+    <button className='add-btn' onClick={handleAddTag}>Add tag</button>
     </div>
   )
 }

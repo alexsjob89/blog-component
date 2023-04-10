@@ -8,16 +8,20 @@ function SearchBar({items}) {
   )
   return (
     <div className='searchBar'>
+    <div className="input-search">
      <input
       type="text"
       placeholder='Search...'
       value={searchQuery}
       onChange={e => setSearchQuery(e.target.value)} />
+      <button type="submit" onClick={e => setSearchQuery(e.target.value)} className="btn">Search</button>
+      </div>
       <ul>
        {filteredItems.map((item, index) => (
-        <li key={index}>{item}</li>
+        <li className='search-list' key={index}>{item}</li>
        ))}
       </ul>
+
     </div>
   )
 }
