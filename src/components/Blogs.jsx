@@ -42,11 +42,11 @@ function Blogs() {
 
   return (
     <div className='blogs'>
-      <h1>Recent Posts</h1>
+      <h1 style={{marginLeft: "12px"}}>Recent Posts</h1>
       {selectedPost ? (
         <div>
-          <h2>{selectedPost.title}</h2>
-          <p>{selectedPost.body}</p>
+          <h2 style={{marginLeft: "12px"}}>{selectedPost.title}</h2>
+          <p style={{marginLeft: "12px"}}>{selectedPost.body}</p>
           <button className='back-to' onClick={handleBackClick}>Back to Posts</button>
         </div>
       ) : (

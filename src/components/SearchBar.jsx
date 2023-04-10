@@ -16,7 +16,7 @@ function SearchBar({items}) {
       onChange={e => setSearchQuery(e.target.value)} />
       <button type="submit" onClick={e => setSearchQuery(e.target.value)} className="btn">Search</button>
       </div>
-      <ul>
+      <ul className='search-parent-list'>
        {filteredItems.map((item, index) => (
         <li className='search-list' key={index}>{item}</li>
        ))}
