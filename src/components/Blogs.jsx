@@ -42,7 +42,7 @@ function Blogs() {
 
   return (
     <div className='blogs'>
-      <h1 style={{marginLeft: "12px"}}>Recent Posts</h1>
+      <h1 style={{marginLeft: "12px", borderBottom: "1px solid black", width: "100%", marginLeft: "-0.1rem", textAlign: "center"}}>Recent Posts</h1>
       {selectedPost ? (
         <div>
           <h2 style={{marginLeft: "12px"}}>{selectedPost.title}</h2>
