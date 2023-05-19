@@ -1,0 +1,75 @@
+{
+    "folders": [
+		{
+			"name": "different-forms",
+			"path": "../../../different-forms"
+		},
+		{
+			"name": "alex-portofolio",
+			"path": "../../../alex-portofolio"
+		},
+		{
+			"name": "react-exercise",
+			"path": "../../../react-exercise"
+		},
+		{
+			"name": "react-exercisestwo",
+			"path": "../../../react-exercisestwo"
+		},
+		{
+			"path": "../../../cart-project"
+		},
+		{
+			"path": "../../../chat-application"
+		},
+		{
+			"path": "../../../react-miniprojects"
+		},
+		{
+			"path": "../../../colour-changing-miniapp"
+		},
+		{
+			"path": "../../../react.js-blog-project"
+		},
+		{
+			"path": "../../happybirthday-reminder"
+		},
+		{
+			"path": "../../tour-mini-project"
+		},
+		{
+			"path": "../../reviews-mini-project"
+		},
+		{
+			"path": "../../acordion-mini-project"
+		},
+		{
+			"path": "../../react-menu-display-mini-project"
+		},
+		{
+			"path": "../../tabs-info-mini-project-react"
+		},
+		{
+			"path": "../../meeting-ended-modal-react.js"
+		},
+		{
+			"path": "../../changing-theme-react"
+		},
+		{
+			"path": "../../pricing-selecting-mini-project"
+		},
+		{
+			"path": "../../sloder-intro-mini-project"
+		},
+		{
+			"path": ".."
+		}
+	],
+    "settings": {
+        "editor.wordWrap": "on",
+        "html.format.wrapLineLength": 80,
+        "html.format.wrapAttributes": "auto",
+        "editor.wrappingIndent": "same",
+        "editor.formatOnSave": false
+    }
+}
