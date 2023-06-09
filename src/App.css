@@ -4,21 +4,18 @@
 }
 
 body {
-    overflow: hidden;
     margin: 0%;
     padding: 0%;
 }
 
 .App {
-    position: absolute;
-    background: white;
-    background-image: linear-gradient(to bottom right, white 10%, #F6E9F9 50%);
-    /* border: 1px solid black; */
-    height: 80rem;
-    margin: auto;
-    top: 0%;
-    right: 0%;
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), #f9dfff);
+    background-repeat: no-repeat;
     width: 100%;
+    min-height: 80rem;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .tags {
@@ -35,8 +32,8 @@ body {
     border-radius: 12px;
     box-shadow: -23px 25px 22px 0px rgba(188, 180, 204, 0.32);
     position: relative;
-    margin: auto;
-    top: 8rem;
+    margin-top: 7rem;
+    margin-left: 10rem;
 }
 
 .add-tags {
@@ -79,14 +76,12 @@ body {
 /* searchbar section */
 
 .searchBar {
-    position: absolute;
     width: 25rem;
     outline: 10px solid white;
     border-radius: 12px;
     background-color: #F6E9F9;
-    left: 50rem;
-    top: 25rem;
-    margin: auto;
+    margin-right: 15rem;
+    margin-top: 10rem;
     overflow: scroll;
     height: 21rem;
     box-shadow: -23px 25px 22px 0px rgba(188, 180, 204, 0.32);
@@ -96,7 +91,6 @@ body {
     width: 25rem;
     height: 4rem;
     display: flex;
-    position: fixed;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -148,15 +142,13 @@ input {
 /* blogs section */
 
 .blogs {
-    position: absolute;
     width: 25rem;
     height: 25rem;
     border-radius: 10px;
     outline: 10px solid white;
     background-color: #F6E9F9;
     box-shadow: -23px 25px 22px 0px rgba(188, 180, 204, 0.32);
-    left: 15rem;
-    top: 30rem;
+    margin: auto;
 }
 
 .blog-parent-list {
@@ -185,3 +177,5 @@ input {
     border: none;
     margin-left: 12px;
 }
+
+@media only screen and (min-width: 393px) {}
